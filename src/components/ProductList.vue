@@ -15,10 +15,10 @@
 
     export default {
     computed: {
-        ...mapState(['products']) // Maps the 'products' state from Vuex store
+        ...mapState(['products']) 
     },
     methods: {
-        ...mapMutations(['addToCart']) // Maps Vuex mutations
+        ...mapMutations(['addToCart']) 
     }
     };
 </script>
